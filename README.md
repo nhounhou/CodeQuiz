@@ -1,5 +1,6 @@
+# Table of Contents
 - [Presentation](#homework4-presentation)
-- [My Tack](#my-task)
+- [My Task](#my-task)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Flow Chart](#flow-chart)
 - [Repository Structure](#repository-structure)
@@ -12,7 +13,6 @@
     - [getInitial()](#getInitial())
     - [clearHS()](#clearHS())
 - [Links](#links)
-
 
 # Homework4 Presentation
 Web APIs: Code Quiz
@@ -76,4 +76,5 @@ This function will clear the `localStorage` of all data
 
 # Links
 [Repository Folder](https://github.com/nhounhou/Homework4)
+
 [Quiz](https://nhounhou.github.io/Homework4)
