@@ -1,0 +1,49 @@
+.col-md-6 {
+    background-color: aqua;
+    font-size: larger;
+}
+
+#main {
+    margin-top: 30px;
+    color: blue;
+    text-decoration-style: solid;
+    text-align: center;
+    font-size: 50px;
+}
+
+#highScore {
+    text-align: left;
+    color: blueviolet;
+}
+
+#question {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#question, #answer {
+    margin: 50px 250px;
+}
+#timer {
+    text-align: right;
+    color: black;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    display: none;
+    width: 200px;
+    text-align: left;
+}
+
+#divstart, #divend, #end-result, #divHighScore {
+    display: none;
+}
+
+#btnStart {
+    margin-left: 675px;
+    background: cyan;
+    font-weight: bolder;
+    height: 100px;
+    width: 150px;
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/style/style.css"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="row">
+                <div id="highScore" class="col-md-6">
+                    <a onclick="displayHS()">HighScore</a>
+                </div>
+                <div id="timer" class="col-md-6 text-right">Timer:</div>
+            </div>  
+        </div>
+        <div class="main">
+            <p id="main"></p>
+            <p class="btnStart">
+                <button id="btnStart" onclick="startQuiz()">Start Quizz</button>
+            </p>
+        </div>
+        <div id="divHighScore">
+            <ol id="hslist">
+            </ol>
+            <button id="btnBack" onclick="goBack()">Go Back</button>
+            <button id="btnClear" onclick="clearHS()">Clear HighScore</button>
+        </div>
+        <div id="divend"></div>
+        <div id="question">
+            <p id="pQuestion"></p>
+        </div>
+        <div id="answer">
+            <button id="btn1" onclick="checkBtn(this)" value="a"></button>
+            <button id="btn2" onclick="checkBtn(this)" value="b"></button>
+            <button id="btn3" onclick="checkBtn(this)" value="c"></button>
+            <button id="btn4" onclick="checkBtn(this)" value="d"></button>
+        </div>
+        <div id="result">
+        </div>
+        <script src="./assets/script/script.js"></script>
+    </body>
+</html>
