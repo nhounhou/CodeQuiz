@@ -283,7 +283,7 @@ function startQuiz() {
   // secondsLeft=1;
   var buttonStart=document.getElementById("btnStart");
   buttonStart.setAttribute("style","display: none;");
-  quizLeft=5;
+  quizLeft=75;
     // var questionEl=document.getElementById("question");
     // var answerEl=document.getElementById("answer");
     var resultEl=document.getElementById("result");
