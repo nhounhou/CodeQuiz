@@ -84,4 +84,3 @@ This function will clear the `localStorage` of all data.
 - Base the logic of the homework on the starter files provided, but too late as I completed the assignment before the files were provided.
 - Clean up some of the redundant instruction, like in the functions `displayHS()` and `getInitials()`.
 - Working on the aesthetic of the webpage.
-<button name="button" onclick="https://nhounhou.github.io/Homework4">Back to Top</button>

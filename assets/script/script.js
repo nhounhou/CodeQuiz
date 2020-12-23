@@ -377,7 +377,7 @@ function checkBtn(objBtn){
       resultEl.innerHTML="Good answer. Your score is "+ score;
     } else {
       resultEl.setAttribute("style","color: red;")
-      score--;
+      quizLeft -= 10;
       incorrectAudio.play();
       resultEl.innerHTML="Wrong answer. Your score is "+ score;
     };
