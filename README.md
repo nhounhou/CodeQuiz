@@ -76,9 +76,9 @@ This function will display the current user score and initials either:
 This function will clear the `localStorage` of all data.
 
 # Links
-[Repository Folder](https://github.com/nhounhou/Homework4)
+[Repository Folder](https://github.com/nhounhou/CodeQuiz)
 
-[Quiz](https://nhounhou.github.io/Homework4)
+[Quiz](https://nhounhou.github.io/CodeQuiz/)
 
 # Improvements
 - Base the logic of the homework on the starter files provided, but too late as I completed the assignment before the files were provided.
